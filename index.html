@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio d'ingénieur logiciel - Développement web, architecture logicielle et solutions innovantes">
+    <title>Imana-47</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="mylogo.png" type="image/x-icon">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__container">
+                <a href="#" class="nav__logo">Imana-47</a>
+                <button class="nav__toggle" aria-label="Menu" aria-expanded="false">
+                    <i data-feather="menu"></i>
+                </button>
+                <ul class="nav__menu">
+                    <li><a href="#accueil" class="nav__link">Accueil</a></li>
+                    <li><a href="#apropos" class="nav__link">À propos</a></li>
+                    <li><a href="#competences" class="nav__link">Compétences</a></li>
+                    <li><a href="#experience" class="nav__link">Expérience</a></li>
+                     <!--
+                    <li><a href="#projets" class="nav__link">Projets</a></li>
+                    <li><a href="#blog" class="nav__link">Blog</a></li>
+                    -->
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                    <li>
+                        <button class="theme-toggle" aria-label="Basculer le thème">
+                            <i data-feather="sun" class="theme-toggle__icon theme-toggle__icon--sun"></i>
+                            <i data-feather="moon" class="theme-toggle__icon theme-toggle__icon--moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="accueil" class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        <span class="hero__greeting">Bonjour, je suis</span>
+                        <span class="hero__name">Nsengimana Francois</span>
+                        <span class="hero__role"> Futur Ingénieur Logiciel Full-Stack</span>
+                    </h1>
+                    <p class="hero__description">
+                        Je conçois et développe des solutions logicielles innovantes avec une passion pour l'excellence technique et l'expérience utilisateur.
+                    </p>
+                    <div class="hero__cta">
+                        <a href="#projets" class="btn btn--primary">Voir mes projets</a>
+                        <a href="#contact" class="btn btn--secondary">Me contacter</a>
+                    </div>
+                    <div class="hero__social">
+                        <a href="https://github.com/IMANA47" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/francoisnsengimana" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@IMANA47" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                            <i data-feather="youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <div class="hero__avatar">
+                        <img src="ImageMe.jpg" alt="Nsengimana Francois - Ingénieur Logiciel">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="apropos" class="about section">
+            <div class="container">
+                <h2 class="section__title">À propos de moi</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p class="about__description">
+Étudiant en licence 2 en développement d’applications, spécialisé en développement logiciel avec Python. Je développe mes compétences à travers des projets pratiques et l’expérimentation technique. J’ai une bonne capacité d’analyse des systèmes et j’apprécie le travail collaboratif pour résoudre des problèmes et améliorer des solutions techniques.</p>
+            
+        <!--            
+<div class="about__stats">
+                            <div class="stat">
+                                <span class="stat__number">2+</span>
+                                <span class="stat__label">Années d'expérience</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat__number">05+</span>
+                                <span class="stat__label">Projets réalisés</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat__number">05+</span>
+                                <span class="stat__label">Clients satisfaits</span>
+                            </div>
+                        </div>
+-->
+                    </div>
+                    <div class="about__image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" alt="Espace de travail développement">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="competences" class="skills section">
+            <div class="container">
+                <h2 class="section__title">Compétences techniques</h2>
+                <div class="skills__grid">
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Analyse Conception UI UX</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">UML</span>
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">Sketch</span>
+                            <span class="skill-tag">Canvas</span>
+                            <span class="skill-tag">Banani</span>
+                            <span class="skill-tag">Lunacy</span>
+                            <span class="skill-tag">Adobe XD</span>
+                            <span class="skill-tag">whimsical</span>
+                            <span class="skill-tag">CapCut</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Frontend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">Nuxt.js</span>
+                            <span class="skill-tag">Vue.js</span>
+                            <span class="skill-tag">HTML5/CSS3</span>
+                            <span class="skill-tag">TailwindCSS</span>
+                            <span class="skill-tag">Tkinter</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Backend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Django</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Base de données</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">SQLite</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">DevOps & Cloud</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">Gitlab</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">CI/CD</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Outils & Méthodes</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Agile/Scrum</span>
+                            <span class="skill-tag">TDD</span>
+                            <span class="skill-tag">Code Review</span>
+                            <span class="skill-tag">Architecture</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section">
+            <div class="container">
+                <h2 class="section__title">Expérience professionnelle</h2>
+                <div class="timeline">
+                    <div class="timeline__item">
+                        <div class="timeline__date">11/2025 - Présent</div>
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">Stagiaire Concepteur UI-UX | Développeur Frontend Vue.js</h3>
+                            <p class="timeline__company">Ginov Congo</p>
+                            <p class="timeline__description">
+                                <ul>    
+                                    <li>• Développement d’applications web avec Vue.js</li>
+                                    <li>• Collaboration avec l’équipe back-end pour l’intégration des fonctionnalités</li>
+                                    	<li>• Collaboration avec l’équipe back-end pour l’intégration des fonctionnalités</li>
+	<li>• Utilisation d’outils d’assistance IA pour le développement et le débogage</li>
+	<li>• Conception de maquettes et interfaces utilisateur</li>
+	<li>• Amélioration de l’expérience utilisateur des applications</li>
+	<li>• Application des principes UI/UX pour optimiser l’ergonomie des interfaces</li>
+                                </ul>
+    	
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline__item">
+                        <div class="timeline__date">7/ 2026 – 9/2026</div>
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">Formateur en informatique</h3>
+                            <p class="timeline__company">Ecole Bilingue Du Congo</p>
+                            <p class="timeline__description">
+                                <ul>
+	<li>• Formation des élèves aux bases de l’informatique</li>
+	<li>• Introduction à Scratch et logique de programmation</li>
+	<li>• Initiation aux outils et logiciels de base</li>
+    </ul>                       
+ </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__date">Activité indépendante | 2024 - Présent</div>
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">Fondateur & Gestionnaire d’Activité Commerciale</h3>
+                            <p class="timeline__company">Imana47</p>
+                            <p class="timeline__description">
+                                <ul>
+	<li>•	Activité entrepreneuriale menée en parallèle des études et engagements professionnels</li>
+	<li>•	Gestion des opérations : approvisionnement, stocks, ventes et suivi de rentabilité</li>
+	<li>•	Développement de compétences en négociation, organisation et prise de décision</li>
+	<li>•	Adaptation de l’activité selon les besoins du marché et les contraintes opérationnelles</li>
+	<li>•	Création et partage de contenu numérique autour des activités et projets personnels </li>
+</ul>
+</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__date">Oct. 2023- Présent | Activités en présentiel et en ligne</div>
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">Ambassadeur & Talent Support Volunteer</h3>
+                            <p class="timeline__company">10000 Codeurs</p>
+                            <p class="timeline__description">
+	•	Accompagnement et orientation de candidats dans leur intégration au programme de formation numérique
+	•	Sensibilisation et coaching de jeunes autour des opportunités dans les métiers du digital
+	•	Animation de séances d’orientation et aide à la préparation des candidats à lexamen d’entrée
+	•	Contribution à l’organisation d’événements/formations en collaboration avec une équipe internationale
+	•	Interventions comme speaker pour partager mon parcours et motiver les participants                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__date">2015 - 2025</div>
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">Responsable Vente & Support Client</h3>
+                            <p class="timeline__company">AMI COUTURE</p>
+                            <p class="timeline__description">
+                                <ul>
+	<li>• Accueil, conseil et accompagnement des clients dans le choix de produits adaptés à leurs besoins</li>
+	<li>• Gestion des stocks, suivi des marchandises et participation aux achats fournisseurs</li>
+	<li>• Suivi des opérations financières et gestion quotidienne de la boutique</li>
+	<li>• Résolution de situations clients et maintien d’une expérience d’achat positive</li>
+	<li>• Participation à l’organisation et au bon fonctionnement général de l’activité commerciale</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section 
+        <section id="projets" class="projects section">
+            <div class="container">
+                <h2 class="section__title">Projets phares</h2>
+                <div class="projects__grid">
+                    <article class="project-card" data-modal="project1">
+                        <div class="project-card__image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Dashboard Analytics">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Analytics Dashboard</h3>
+                            <p class="project-card__description">
+                                Tableau de bord interactif pour la visualisation de données en temps réel avec graphiques dynamiques et rapports personnalisables.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="project-card__tag">React</span>
+                                <span class="project-card__tag">D3.js</span>
+                                <span class="project-card__tag">Node.js</span>
+                            </div>
+                            <button class="project-card__btn" aria-label="Voir les détails">
+                                <i data-feather="arrow-right"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="project-card" data-modal="project2">
+                        <div class="project-card__image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="E-commerce Platform">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">E-commerce Platform</h3>
+                            <p class="project-card__description">
+                                Plateforme e-commerce complète avec gestion des stocks, paiement intégré et système de recommandation intelligent.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="project-card__tag">Vue.js</span>
+                                <span class="project-card__tag">Python</span>
+                                <span class="project-card__tag">PostgreSQL</span>
+                            </div>
+                            <button class="project-card__btn" aria-label="Voir les détails">
+                                <i data-feather="arrow-right"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="project-card" data-modal="project4">
+                        <div class="project-card__image">
+                            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop" alt="Task Management App">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Task Management App</h3>
+                            <p class="project-card__description">
+                                Application de gestion de tâches collaborative avec fonctionnalités de kanban, notifications en temps réel et intégrations.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="project-card__tag">React</span>
+                                <span class="project-card__tag">Firebase</span>
+                                <span class="project-card__tag">WebSocket</span>
+                            </div>
+                            <button class="project-card__btn" aria-label="Voir les détails">
+                                <i data-feather="arrow-right"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                                        <article class="project-card" data-modal="project3">
+                        <div class="project-card__image">
+                            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop" alt="Task Management App">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Task Management App</h3>
+                            <p class="project-card__description">
+                                Application de gestion de tâches collaborative avec fonctionnalités de kanban, notifications en temps réel et intégrations.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="project-card__tag">React</span>
+                                <span class="project-card__tag">Firebase</span>
+                                <span class="project-card__tag">WebSocket</span>
+                            </div>
+                            <button class="project-card__btn" aria-label="Voir les détails">
+                                <i data-feather="arrow-right"></i>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        Testimonials Section 
+        <section class="testimonials section">
+            <div class="container">
+                <h2 class="section__title">Témoignages</h2>
+                <div class="testimonials__grid">
+                    <blockquote class="testimonial">
+                        <div class="testimonial__content">
+                            <i data-feather="quote" class="testimonial__icon"></i>
+                            <p class="testimonial__text">
+                                "Jean a transformé notre vision en réalité avec une expertise technique remarquable. Sa capacité à comprendre nos besoins métier et à livrer des solutions de qualité est exceptionnelle."
+                            </p>
+                        </div>
+                        <footer class="testimonial__author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face" alt="Marie Martin" class="testimonial__avatar">
+                            <div class="testimonial__info">
+                                <cite class="testimonial__name">Marie Martin</cite>
+                                <span class="testimonial__role">CEO, StartupXYZ</span>
+                            </div>
+                        </footer>
+                    </blockquote>
+                    <blockquote class="testimonial">
+                        <div class="testimonial__content">
+                            <i data-feather="quote" class="testimonial__icon"></i>
+                            <p class="testimonial__text">
+                                "Travailler avec Jean a été un véritable plaisir. Son professionnalisme, sa communication claire et son engagement envers la qualité du code font de lui un partenaire de choix."
+                            </p>
+                        </div>
+                        <footer class="testimonial__author">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=60&h=60&fit=crop&crop=face" alt="Pierre Bernard" class="testimonial__avatar">
+                            <div class="testimonial__info">
+                                <cite class="testimonial__name">Pierre Bernard</cite>
+                                <span class="testimonial__role">CTO, TechCorp</span>
+                            </div>
+                        </footer>
+                    </blockquote>
+                    <blockquote class="testimonial">
+                        <div class="testimonial__content">
+                            <i data-feather="quote" class="testimonial__icon"></i>
+                            <p class="testimonial__text">
+                                "La solution développée par Jean a dépassé toutes nos attentes. Performance, évolutivité et maintenabilité sont au rendez-vous. Je recommande vivement ses services."
+                            </p>
+                        </div>
+                        <footer class="testimonial__author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face" alt="Sophie Durand" class="testimonial__avatar">
+                            <div class="testimonial__info">
+                                <cite class="testimonial__name">Sophie Durand</cite>
+                                <span class="testimonial__role">Product Manager, InnovateTech</span>
+                            </div>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        Blog Section 
+        <section id="blog" class="blog section">
+            <div class="container">
+                <h2 class="section__title">Blog & Articles</h2>
+                <div class="blog__grid">
+                    <article class="blog-card">
+                        <div class="blog-card__image">
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop" alt="Article sur les microservices">
+                        </div>
+                        <div class="blog-card__content">
+                            <time class="blog-card__date" datetime="2024-03-15">15 Mars 2024</time>
+                            <h3 class="blog-card__title">Architecture Microservices : Guide Pratique</h3>
+                            <p class="blog-card__excerpt">
+                                Découvrez les principes fondamentaux des microservices, leurs avantages et comment les implémenter efficacement dans vos projets.
+                            </p>
+                            <a href="#" class="blog-card__link">Lire l'article <i data-feather="arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="blog-card">
+                        <div class="blog-card__image">
+                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop" alt="Article sur React">
+                        </div>
+                        <div class="blog-card__content">
+                            <time class="blog-card__date" datetime="2024-02-28">28 Février 2024</time>
+                            <h3 class="blog-card__title">React 18 : Nouveautés et Bonnes Pratiques</h3>
+                            <p class="blog-card__excerpt">
+                                Exploration des nouvelles fonctionnalités de React 18, notamment le rendering concurrent et les automatic batching.
+                            </p>
+                            <a href="#" class="blog-card__link">Lire l'article <i data-feather="arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="blog-card">
+                        <div class="blog-card__image">
+                            <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&h=400&fit=crop" alt="Article sur le DevOps">
+                        </div>
+                        <div class="blog-card__content">
+                            <time class="blog-card__date" datetime="2024-02-10">10 Février 2024</time>
+                            <h3 class="blog-card__title">CI/CD : Automatisation du Pipeline de Déploiement</h3>
+                            <p class="blog-card__excerpt">
+                                Comment mettre en place un pipeline CI/CD robuste avec GitHub Actions pour automatiser vos déploiements.
+                            </p>
+                            <a href="#" class="blog-card__link">Lire l'article <i data-feather="arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        -->
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section__title">Me contacter</h2>
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Discutons de votre projet</h3>
+                        <p class="contact__description">
+Je suis disponible pour contribuer à divers besoins numériques et techniques, au-delà du simple développement. Je réponds généralement 
+sous 48 heures (en cas d’indisponibilité exceptionnelle, le délai peut aller jusqu’à 72 heures).                       
+ </p>
+                        <div class="contact__details">
+                            <div class="contact-detail">
+                                <i data-feather="mail"></i>
+                                <a href="mailto:francois.nsengimana@email.com">francois.nsengimana@email.com</a>
+                            </div>
+                            <div class="contact-detail">
+                                <i data-feather="map-pin"></i>
+                                <span>Brazzaville, République du Congo</span>
+                            </div>
+                            <div class="contact-detail">
+                                <i data-feather="phone"></i>
+                                <a href="tel:+242069485154">+242 06 948 51 54</a>
+                            </div>
+                        </div>
+                        <div class="contact__social">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <i data-feather="github"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <i data-feather="linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                                <i data-feather="twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nom</label>
+                            <input type="text" id="name" name="name" class="form-input" required aria-required="true">
+                            <span class="form-error" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required aria-required="true">
+                            <span class="form-error" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-input form-input--textarea" rows="5" required aria-required="true"></textarea>
+                            <span class="form-error" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">Envoyer le message</button>
+                        <div class="form-success" id="formSuccess" role="alert" aria-live="polite">
+                            <i data-feather="check-circle"></i>
+                            Merci ! Votre message a été envoyé avec succès.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <span class="footer__logo">Nsengimana Francois</span>
+                    <p class="footer__tagline">Ingénieur Logiciel Passionné</p>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__section">
+                        <h4 class="footer__title">Navigation</h4>
+                        <ul class="footer__list">
+                            <li><a href="#accueil">Accueil</a></li>
+                            <li><a href="#apropos">À propos</a></li>
+                            <li><a href="#competences">Compétences</a></li>
+                            <li><a href="#experience">Expérience</a></li>
+                              <!-- 
+                            <li><a href="#projets">Projets</a></li>
+                             -->
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__section">
+                        <h4 class="footer__title">Réseaux</h4>
+                        <ul class="footer__list">
+                            <li><a href="https://github.com/IMANA47" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/francois-nsengimana/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                            <li><a href="https://www.youtube.com/@IMANA47" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Imana47. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal__overlay"></div>
+        <div class="modal__content">
+            <button class="modal__close" aria-label="Fermer la modal">
+                <i data-feather="x"></i>
+            </button>
+            <div class="modal__body" id="modalBody">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
